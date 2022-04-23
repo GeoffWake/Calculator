@@ -1,0 +1,28 @@
+.container {
+    border: solid 2px black;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas: "one one one one"
+                         "two two two two"
+                         "three three three three"
+                         "three three three three"
+                         "three three three three"
+                         "three three three three";
+    height: 600px;
+    width: 300px;
+}
+
+
+.secondcontainer{
+
+    border: solid 2px black;
+    background-color: rgb(173, 167, 171);
+    grid-area: two;
+}
+
+.buttons { 
+    border: solid 2px black;
+    background-color: rgb(33, 140, 228);
+}
+
+
