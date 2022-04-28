@@ -1,3 +1,5 @@
+@import "colors";
+
 * {
     margin: 0px;
     padding: 0;
@@ -11,6 +13,7 @@
 }
 .container {
     display: grid;
+    background-color: #56A1FA;
     border: 1px solid black;
     grid-template-areas: "two two two two"
                          "two two two two"
@@ -21,6 +24,8 @@
                          "three three three three";
     height: 700px;
     width: 400px;
+    border-radius: 8px;
+
 }
 
 
@@ -33,6 +38,7 @@
     justify-content: end;
     align-items: center;
     height: 200px;
+    border-radius: 8px;
 
 }
 
@@ -45,7 +51,8 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-row-gap: 1px;
     grid-column-gap: 1px;;
-    height: 450px;
+    height: 430px;
+    margin: 8px;
     
     
 }
@@ -67,8 +74,8 @@ background-color: #56A1FA;
   color: white;
   padding: 1px;
   text-align: center;
-  font-size: 30px;
-  margin: 15px;
+  font-size: 60px;
+  margin: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
   border-radius: 8px;
 }
@@ -94,6 +101,7 @@ background-color: #56A1FA;
     height: 50%;
     background-color:#47515A;
     margin-bottom: 5px;
+    border-radius: 6px;
     
 
 }
