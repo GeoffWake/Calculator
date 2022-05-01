@@ -83,12 +83,14 @@
   margin-top: 20px;
 }
 
-.calculator-screen {
+#screen {
   width: 75%;
   height: 50%;
   background-color: #47515A;
   margin-bottom: 5px;
   border-radius: 6px;
+  font-size: 100px;
+  color: antiquewhite;
 }
 
 /*# sourceMappingURL=cal.css.map */
