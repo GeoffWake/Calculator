@@ -1,22 +1,22 @@
-///Button 7
+// ///Button 7
 
-const button7 =document.getElementById("b7"); {
-    b7.innerText;
-}
+// const button7 =document.getElementById("b7"); {
+//     b7.innerText;
+// }
 
-///Button 8
+// ///Button 8
 
-const button8 =document.getElementById("b8"); {
-    button8.innerText;
-}
-
-
-const numberInput7 = () => {
-    document.getElementById("b7").innerText = 7;
-}
+// const button8 =document.getElementById("b8"); {
+//     button8.innerText;
+// }
 
 
-button7.addEventListener("click", numberInput7);
+// const numberInput7 = () => {
+//     document.getElementById("b7").innerText = 7;
+// }
+
+
+// button7.addEventListener("click", numberInput7);
 
 // ///Click button 7
 //     document.getElementById("b7");
@@ -176,18 +176,33 @@ button7.addEventListener("click", numberInput7);
 
 
 
-const displayVal="0";
+// const displayVal="0";
 
-const displayValElement = document.getElementById("#screen")
+// const displayValElement = document.getElementById("#screen")
 
 
- // Updating the display field
-updateDisplayVal = (e) => {
-   const buttonText = e.target.innerText;
-   if(displayVal === "0") { 
-      displayVal = ""; 
-   }
-// Append the content of the button we clicked to our displayVal variable and display it
-   displayVal += btnText; 
-   displayValElement.innerText = displayVal;
-}
+//  // Updating the display field
+// updateDisplayVal = (e) => {
+//    const buttonText = e.target.innerText;
+//    if(displayVal === "0") { 
+//       displayVal = ""; 
+//    }
+// // Append the content of the button we clicked to our displayVal variable and display it
+//    displayVal += btnText; 
+//    displayValElement.innerText = displayVal;
+// }
+
+
+
+const number1=document.getElementById("b7");
+
+
+number1.addEventListener("click", () => console.log("1"))
+
+
+////If statememnt to trigger on click
+const hello = () => {
+    operators.addEventListener("click",console.log("Hi"))
+    }
+
+document.querySelector('#screen').textContent = fred.innerText;
